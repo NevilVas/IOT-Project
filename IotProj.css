@@ -1,0 +1,30 @@
+body{
+    transition-duration: 0.3s;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background:(255,255,255,0.2%);
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+}
+h1,h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+}
+button{
+    font-size: 24px;
+    padding: auto;
+    width: 12%;
+    border-radius: 12px;
+    /*background-color: darkslategray;*/
+    transition-duration: 0.5s;
+}
+.ON:hover{
+    background-color:lightslategrey;
+    color: lightgreen;
+    
+}
